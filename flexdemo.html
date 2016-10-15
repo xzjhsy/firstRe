@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		.flex-content{
+			display:flex;
+			flex-direction:row;
+			width:400px;
+			height:400px;
+			flex-flow:row;
+			justify-content:space-around;
+			border:1px #000 solid;
+			margin:0 auto;
+			/*align-items:stretch;*/
+		}	
+		.flex-item{
+			background: #000000;
+			color:white;
+			width:100px;
+			/*height:100px;*/
+			margin:5px;
+			text-align: center;
+			line-height: 100px;
+		}	
+	</style>
+</head>
+<body>
+	<span class="flex-content">
+		<span class="flex-item">1</span>
+		<span class="flex-item">2</span>
+		<span class="flex-item">3</span>
+	</span>
+</body>
+</html>
